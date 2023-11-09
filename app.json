@@ -14,6 +14,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -21,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rbtvl.app1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aa4f0c34-c6e8-4323-b12e-8d9118e0c1da"
+      }
     }
   }
 }
